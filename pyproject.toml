@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "garmin-marathon-counter"
+version = "0.1.0"
+description = ""
+authors = ["Martin Thøgersen <martint@martint.dk>"]
+readme = "README.md"
+packages = [{include = "garmin_marathon_counter"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+garth = "^0.4.45"
+garminconnect = "^0.2.15"
+jupyter = "^1.0.0"
+pandas = "^2.2.1"
+plotly = "^5.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
